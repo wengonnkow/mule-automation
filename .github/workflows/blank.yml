@@ -32,3 +32,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install Anypoint Catalog
         run: npm i api-catalog-cli -g
+
+      # Runs a single command using the runners shell
+      - name: Automation using Anypoint CLI
+        run: anypoint-cli-v4 account:user:describe --client_id a9e44a3537244c72b72efae8d909da2b --client_secret 9041907074354b13bf968D3259d852c7 
